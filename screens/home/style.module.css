@@ -1,0 +1,19 @@
+.home-page {
+}
+
+.title {
+  color: var(--n-10);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.18px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(188px, 1fr));
+  gap: 1px;
+  overflow: auto;
+}

@@ -1,0 +1,42 @@
+.title {
+  color: var(--n-10);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: -0.18px;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.book-card {
+  width: 188px;
+}
+
+.book-card__details {
+  padding: 0 16px;
+}
+
+.book-card__title {
+  padding: 8px 0;
+  color: var(--n-10);
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 100%; /* 14px */
+  letter-spacing: -0.14px;
+}
+
+.book-card__price-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+.book-card__discount {
+  color: var(--error);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 100%; /* 14px */
+}
