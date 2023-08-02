@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         {pages?.map((page, pageIndex) => {
           return (
             <div key={pageIndex} ref={ref} className={csln['book-list']}>
-              {page.data &&
+              {!!page?.data?.length &&
                 page.data.map(({ title, coverImage, price, discountRate }: any, index) => {
                   return (
                     <Link href={`/details?pageIndex=${pageIndex}&bookIndex=${index}`}>
